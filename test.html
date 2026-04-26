@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار - تاج</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: Arial, sans-serif;
+            background: #0f0f1e;
+            color: #e0e0e0;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 { color: #667eea; margin: 20px 0; }
+        .status { 
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border: 2px solid #667eea;
+        }
+        .ok { color: #00ff88; }
+        .error { color: #ff3366; }
+    </style>
+</head>
+<body>
+    <h1>🧪 اختبار الموقع</h1>
+    <div class="status">
+        <h2>✅ الموقع يعمل بشكل صحيح!</h2>
+        <p class="ok">الصفحة تحمّل بنجاح من Vercel</p>
+        <p>الوقت: <span id="time"></span></p>
+    </div>
+    <script>
+        document.getElementById('time').textContent = new Date().toLocaleString('ar-SA');
+    </script>
+</body>
+</html>
