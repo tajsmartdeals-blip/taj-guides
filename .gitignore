@@ -1,0 +1,24 @@
+# Backup files
+*-old.html
+*-old.css
+*-new.html
+*-new.css
+*-backup.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if any)
+node_modules/
+package-lock.json
+
+# Build
+dist/
+build/
